@@ -75,6 +75,6 @@ if __name__ == "__main__":
     print("start~!@@@@@@@@@@@@@@@@@@@@@@@")
 
     # 원래 코드
-    stl_file_path = r"C:\Users\USER\Desktop\blender\decomposition grid\models\Stanford_bunny.stl"
+    stl_file_path = r"models\Stanford_bunny.stl"
     ga = GeneticAlgorithm(stl_file_path)
     best_solution = ga.run()

@@ -102,7 +102,7 @@ if __name__ == "__main__":
         sys.stdout = f # stdout을 파일로 리디렉션
 
         # 원래 코드
-        stl_file_path = r"C:\Users\USER\Desktop\blender\decomposition grid\models\Stanford_bunny.stl"
+        stl_file_path = r"models\Stanford_bunny.stl"
         ga = GeneticAlgorithm(stl_file_path)
         best_solution = ga.run()
         print('걸린 시간: ', time.time()-start)
